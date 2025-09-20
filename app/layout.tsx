@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     title: "Jay Gopal - Healthcare AI Founder",
     description: "CEO, Kyron Medical. Building voice AI for revenue recovery in healthcare.",
   },
+  icons: {
+    icon: "/favicon.ico", // <- put your favicon in /public/favicon.ico
+  }
 }
 
 export default function RootLayout({
